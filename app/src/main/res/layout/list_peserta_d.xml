@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fotoD"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="30dp"
+        android:padding="8dp"
+        tools:src="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <TextView
+            android:id="@+id/nama_pesertaD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/pesertaD" />
+
+        <TextView
+            android:id="@+id/detail_pesertaD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/detailD" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_favD"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bg_button_fav"
+        android:gravity="center_vertical"
+        android:enabled="true"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Peserta EURO 2020</string>
+
+    <string name="pesertaA">List Peserta A</string>
+    <string name="detailA">Peserta A</string>
+    <string name="group_a">GROUP A</string>
+
+    <string name="pesertaB">List Peserta B</string>
+    <string name="detailB">Peserta B</string>
+    <string name="group_b">GROUP B</string>
+
+    <string name="pesertaC">List Peserta C</string>
+    <string name="detailC">Peserta C</string>
+    <string name="group_c">GROUP C</string>
+
+    <string name="pesertaD">List Peserta D</string>
+    <string name="detailD">Peserta D</string>
+    <string name="group_d">GROUP D</string>
+
+    <string name="pesertaE">List Peserta E</string>
+    <string name="detailE">Peserta E</string>
+    <string name="group_e">GROUP E</string>
+
+    <string name="pesertaF">List Peserta F</string>
+    <string name="detailF">Peserta F</string>
+    <string name="group_f">GROUP F</string>
+
+    <string name="about">About</string>
+    <string name="email">dionkarel@gmail.com</string>
+    <string name="nama">Dionisius Karel Piasmoro</string>
+    <string name="desc">desc</string>
+
+    <string name="pemain">Pemain</string>
+    <string name="pelatih">Pelatih</string>
+    <string name="favorite">Fav</string>
+    <string name="share">Share</string>
+    <string name="Favorite">Favorite</string>
+    <string name="fav">Fav</string>
+    <string name="ringkasan">LIST PESERTA EURO 2020</string>>
+    <string name="ringkasan2">ROAD TO WEMBLEY</string>
+    <string name="presented">presented by :</string>
+
+</resources>

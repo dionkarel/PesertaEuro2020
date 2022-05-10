@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/group_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_a"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_a"
+            android:layout_below="@id/group_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_a" />
+
+        <TextView
+            android:id="@+id/group_b"
+            android:layout_below="@id/rv_peserta_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_b"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_b"
+            android:layout_below="@id/group_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_b" />
+
+        <TextView
+            android:id="@+id/group_c"
+            android:layout_below="@id/rv_peserta_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_c"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_c"
+            android:layout_below="@id/group_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_c" />
+
+        <TextView
+            android:id="@+id/group_d"
+            android:layout_below="@id/rv_peserta_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_d"
+            android:layout_below="@id/group_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_d"/>
+
+        <TextView
+            android:id="@+id/group_e"
+            android:layout_below="@id/rv_peserta_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_e"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_e"
+            android:layout_below="@+id/group_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_e" />
+
+        <TextView
+            android:id="@+id/group_f"
+            android:layout_below="@id/rv_peserta_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:text="@string/group_f"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_peserta_f"
+            android:layout_below="@+id/group_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/list_peserta_f" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/rv_peserta_f"/>
+
+    </RelativeLayout>
+
+</ScrollView>
